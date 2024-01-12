@@ -60,13 +60,4 @@ img{
     flex-direction: column;
     border-style: solid;
     max-width: 60vh;
-    overflow: hidden;
 }
-.InvFunc p{
-    max-width: 65%;
-    text-align: justify;
-    padding: 15px;
-}
-.InvFunc:hover{
-    zoom: 105%;
-    }
