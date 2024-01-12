@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0px;
+}
+header{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px;
+    margin-top: auto;
+}
+.nav1{
+    background-color: black;
+    height: 30px;
+}
+main{
+    margin-top: auto
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 50px;
+    border-style: solid; border-color: black;
+    border-radius: 200px;
+}
+.DangleId{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InvFunc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
