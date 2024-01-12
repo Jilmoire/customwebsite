@@ -34,18 +34,29 @@ main{
 }
 img{
     height: 50px;
-    border-style: solid; border-color: black;
     border-radius: 5px;
 }
 .DangleId{
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    flex-direction: column;
+    border-style: solid;
+    max-width: 60vh;
+    overflow: hidden;
+}
+.DangleId p{
+    max-width: 65%;
+    text-align: justify;
+    padding: 15px;
+}
+.DangleId:hover{
+    zoom: 105%;
 }
 .InvFunc{
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    flex-direction: column;
 }
