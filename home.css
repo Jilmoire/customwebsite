@@ -10,9 +10,23 @@ body{
     margin: 0px;
 }
 header{
+    display: flex;
     background-color: lightgray;
-    text-align: center;
+    justify-content: space-between;
     padding: 20px;
+}
+.home{
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+}
+.home1{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: auto;
 }
 footer{
     background-color: lightgray;
@@ -26,51 +40,4 @@ footer{
 }
 main{
     margin-top: auto
-}
-.select{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-    flex-flow: wrap;
-}
-img{
-    height: 50px;
-    border-radius: 5px;
-}
-.DangleId{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-style: solid;
-    max-width: 65vh;
-    overflow: hidden;
-}
-.DangleId p{
-    max-width: 65%;
-    text-align: justify;
-    padding: 15px;
-}
-.DangleId:hover{
-    zoom: 105%;
-}
-.InvFunc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-style: solid;
-    max-width: 65vh;   
-    overflow: hidden;
-}
-.InvFunc p{
-    max-width: 65%;
-    text-align: justify;
-    padding: 15px;
-}
-.InvFunc:hover{
-    zoom: 105%;
 }
