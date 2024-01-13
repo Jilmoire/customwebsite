@@ -15,28 +15,11 @@ header{
     justify-content: space-between;
     padding: 20px;
 }
-.home{
-    display: inline-flex;
-    align-content: center;
-    justify-content: space-between;
-    width: 20%;
-    margin: auto;
-}
-.home1{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    margin: auto;
-}
 footer{
     background-color: lightgray;
     text-align: center;
     padding: 30px;
     margin-top: auto;
-}
-.nav1{
-    background-color: black;
-    height: 30px;
 }
 main{
     margin-top: auto
