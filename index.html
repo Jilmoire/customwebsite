@@ -58,27 +58,25 @@
     </div>
 </main>
 <section class="divider">
-    <div class="learnmats" onclick="changecontent()">Learning Materials</div>
-    <div class="vidtutorial" onclick="changecontent2()">Video Tutorials</div>
+    <div class="divtitle">Learning Materials</div>
+    <div class="divcontainer">
+    <div class="learnmats" onclick="changecontent()">Pre-Calculus Modules</div>
+    <div class="vidtutorial" onclick="changecontent2()">General Mathematics Modules</div>
+    </div>
 </section>
 <main class="main2">
-    <div class="left" id="learnmat">
+    <div class="display" id="learnmat">
                         <div class=pcal;>2nd Quarter Pre-Calculus:</div>
                         <br>
                             <div class=precalsel>
-                                <a href=2angleId.html;><p>Module 1: Double Angle Identities</p></a>
-                                <p>Module 1.2: Half Angle Identities</p></div>
-                        <br>
-                        <div class=gmath;>2nd Quarter General Mathematics:</div>
-                        <br>
-                            <div class=genmathsel><a href=2angleId.html;>Module 1: One-to-one Function</a>
-                                <p>Module 1.2: Inverse Functions</p></div>
+                                <a href=2angleId.html><p>Module 1: Double Angle Identities</p></a>
+                                <a href="InvFunc.html"><p>Module 1.2: Half Angle Identities</p></a></div>
     </div>
     <script>
 
         function changecontent()
         {
-            document.getElementById("learnmat").innerHTML="<div class=left;><div class=pcal;>2nd Quarter Pre-Calculus:</div><br><div class=precalsel><a href=2angleId.html;><p>Module 1: Double Angle Identities</p></a><p>Module 1.2: Half Angle Identities</p></div><br><div class=gmath;>2nd Quarter General Mathematics:</div><br><div class=genmathsel><a href=2angleId.html;>Module 1: One-to-one Function</a><p>Module 1.2: Inverse Functions</p></div>"
+            document.getElementById("learnmat").innerHTML="<div class=display;><div class=pcal;>2nd Quarter Pre-Calculus:</div><br><div class=precalsel><a href=2angleId.html><p>Module 1: Double Angle Identities</p></a><a href=InvFunc.html><p>Module 1.2: Half Angle Identities</p></a></div>"
         }
     
     </script>
@@ -86,7 +84,7 @@
 
         function changecontent2()
         {
-            document.getElementById("learnmat").innerHTML="<div class=left; id=learnmat><div class=pcal;>2nd Quarter Pre-Calculus:</div><br><div class=precalsel><p>Module 1: Double Angle Identities</p><p>Module 1.2: Half Angle Identities</p></div><br><div class=gmath;>2nd Quarter General Mathematics:</div><br><div class=genmathsel>Module 1: One-to-one Function<p>Module 1.2: Inverse Functions</p></div>"
+            document.getElementById("learnmat").innerHTML="<div class=display; id=learnmat>2nd Quarter General Mathematics:</div><br><div class=genmathsel>Module 1: One-to-one Function<p>Module 1.2: Inverse Functions</p></div>"
         }
     
     </script>

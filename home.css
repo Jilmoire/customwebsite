@@ -5,7 +5,7 @@ body{
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #ccc9dc;
+    background-color: rgb(255, 196, 88);
 }
 *{
     margin: 0px;
@@ -15,7 +15,7 @@ header{
     background-color: lightgray;
     justify-content: space-between;
     padding: 40px;
-    background-color: black;
+    background-color: #0c1821;
     color: white;
 }
 .homesel{
@@ -78,7 +78,7 @@ footer{
 button{
     border: none;
     font-size: larger;
-    background-color: #ccc9dc;
+    background-color:  rgb(255, 196, 88);
     text-decoration: underline;
 }
 button:hover{zoom: 105%; cursor: pointer;}
@@ -90,18 +90,24 @@ button:hover{zoom: 105%; cursor: pointer;}
     font-size: larger;
     margin-top: auto;
     background-color: #0c1821;
+    flex-direction: column;
 }
-.vidtutorial{
+.divider .divtitle{margin: auto; padding-top: 30px; border-bottom: 3px solid; font-size: larger;}
+.divider .divcontainer{
+    display: flex;
+    margin-top: 25px;
+}
+.divider .vidtutorial{
     display: block;
-    padding: 40px;
+    padding: 20px;
     width: 50%;
     text-align: center;
     border-bottom: 8px solid #0c1821;
 }
 .vidtutorial:hover{cursor: pointer; border-bottom: 8px solid;}
-.learnmats{
+.divider .learnmats{
     display: block;
-    padding: 40px;
+    padding: 20px;
     width: 50%;
     text-align: center;
     border-bottom: 8px solid #0c1821;
@@ -113,14 +119,14 @@ button:hover{zoom: 105%; cursor: pointer;}
     justify-content: center;
     padding: 10px;
 }
-.left{
+.display{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     border-style: solid;
-    width: 80%;
-    height: 90vh;
+    width: 75%;
+    height: 70vh;
     text-align: center;
     font-size: 40px;
 }
