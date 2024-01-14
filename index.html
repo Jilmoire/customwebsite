@@ -12,15 +12,20 @@
         Logo
     </div>
     <div class="homesel">
-        <p><a href="index.html">Home</a></p>
-        <p>Learning Materials</p>
-        <p>About us</p>
+        <div><a href="#home">Home</a></div>
+        <p><a href="#lm">Learning Materials</a></p>
+        <div><a href="#about">About us</a></div>
     </div>
-    <div>
-        Menu
+    <div class="dropdown">
+        <p class="btn">Extras</p>
+        <div class="content">
+        <a href="https://www.desmos.com/calculator/zfbhdeyjsu">Trigonometric Functions Graph</a>
+        <a href="https://www.desmos.com/scientific">Scientific Calculator</a>
+        <a href="https://www.desmos.com/calculator">Graphing Calculator</a>
+        </div>
     </div>
 </header>
-<main class="main1">
+<main class="main1" id="home">
     <div class="leftcontainer">
         <div class="lefttitle">
         <p>Introduction to:</p>
@@ -58,7 +63,7 @@
     </div>
 </main>
 <section class="divider">
-    <div class="divtitle">Learning Materials</div>
+    <div class="divtitle" id="lm">Learning Materials</div>
     <div class="divcontainer">
     <div class="learnmats" onclick="changecontent()">Pre-Calculus Modules</div>
     <div class="vidtutorial" onclick="changecontent2()">General Mathematics Modules</div>
@@ -70,7 +75,7 @@
                         <br>
                             <div class=precalsel>
                                 <a href=2angleId.html><p>Module 1: Double Angle Identities</p></a>
-                                <a href="InvFunc.html"><p>Module 1.2: Half Angle Identities</p></a></div>
+                                <p>Module 1.2: Half Angle Identities</p></div>
     </div>
     <script>
 
@@ -84,13 +89,13 @@
 
         function changecontent2()
         {
-            document.getElementById("learnmat").innerHTML="<div class=display; id=learnmat>2nd Quarter General Mathematics:</div><br><div class=genmathsel>Module 1: One-to-one Function<p>Module 1.2: Inverse Functions</p></div>"
+            document.getElementById("learnmat").innerHTML="<div class=display; id=learnmat>2nd Quarter General Mathematics:</div><br><div class=genmathsel>Module 1: One-to-one Function<p><a href=InvFunc.html>Module 1.2: Inverse Functions</p></a></div>"
         }
     
     </script>
 </div>
 </main>
-<footer>
+<footer id="about">
     <h1>Footer</h1>
 </footer>   
 </body>
