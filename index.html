@@ -59,7 +59,7 @@
 </main>
 <section class="divider">
     <div class="learnmats" onclick="changecontent()">Learning Materials</div>
-    <div class="vidtutorial">Video Tutorials</div>
+    <div class="vidtutorial" onclick="changecontent2()">Video Tutorials</div>
 </section>
 <main class="main2">
     <div class="left" id="learnmat">
@@ -82,6 +82,15 @@
         }
     
     </script>
+    <script>
+
+        function changecontent2()
+        {
+            document.getElementById("learnmat").innerHTML="<div class=left; id=learnmat><div class=pcal;>2nd Quarter Pre-Calculus:</div><br><div class=precalsel><p>Module 1: Double Angle Identities</p><p>Module 1.2: Half Angle Identities</p></div><br><div class=gmath;>2nd Quarter General Mathematics:</div><br><div class=genmathsel>Module 1: One-to-one Function<p>Module 1.2: Inverse Functions</p></div>"
+        }
+    
+    </script>
+</div>
 </main>
 <footer>
     <h1>Footer</h1>
