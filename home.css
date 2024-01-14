@@ -5,6 +5,7 @@ body{
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #ccc9dc;
 }
 *{
     margin: 0px;
@@ -13,14 +14,113 @@ header{
     display: flex;
     background-color: lightgray;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+.homesel{
+    display: inline-flex;
+    width: 30%;
+    justify-content: space-between;
 }
 footer{
-    background-color: lightgray;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 30px;
     margin-top: auto;
 }
-main{
-    margin-top: auto
+.main1{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+.leftcontainer{
+    display: flex;
+    border-style: solid;
+    width: 40%;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.lefttitle{
+    font-size:  60px
+}
+.leftcontainersel{
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.rightcontainer{
+    display: flex;
+    border-style: solid;
+    width: 40%;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.rightcontainersel{
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    border: none;
+    font-size: larger;
+    background-color: #ccc9dc;
+    text-decoration: underline;
+}
+button:hover{zoom: 105%; cursor: pointer;}
+
+.divider{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    margin-top: auto;
+    background-color: #0c1821;
+}
+.vidtutorial{
+    display: block;
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 8px solid #0c1821;
+}
+.vidtutorial:hover{cursor: pointer; border-bottom: 8px solid;}
+.learnmats{
+    display: block;
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 8px solid #0c1821;
+}
+.learnmats:hover{cursor: pointer; border-bottom: 8px solid;}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-style: solid;
+    width: 80%;
+    height: 90vh;
+    text-align: center;
+    font-size: 40px;
 }
