@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
     <link rel="stylesheet" href="home.css">
+    <script src="index.js"></script>
 </head>
 <body>
 <header>
@@ -19,14 +20,15 @@
     <div class="dropdown">
         <p class="btn">Extras</p>
         <div class="content">
-        <a href="https://www.desmos.com/calculator/zfbhdeyjsu">Trigonometric Functions Graph</a>
-        <a href="https://www.desmos.com/scientific">Scientific Calculator</a>
-        <a href="https://www.desmos.com/calculator">Graphing Calculator</a>
+        <a href="https://www.desmos.com/calculator/zfbhdeyjsu" target="_blank">Trigonometric Functions Graph</a>
+        <a href="https://www.desmos.com/scientific" target="_blank">Scientific Calculator</a>
+        <a href="https://www.desmos.com/calculator" target="_blank">Graphing Calculator</a>
         </div>
     </div>
 </header>
 <video class="bgvid" autoplay muted loop playsinline><source src="https://github.com/Jilmoire/customwebsite/blob/main/videos/main1vbg.mp4?raw=true" ></video>
 <main class="main1" id="home">
+    <video class="bgvid" autoplay muted loop><source src="/videos/main1vbg.mp4" ></video>
     <div class="leftcontainer">
         <div class="lefttitle">
         <p>Introduction to:</p>
@@ -37,23 +39,6 @@
         <p><button onclick="changetext()">General Mathematics</button></p>
         </div>
     </div>
-    <script>
-
-        function changetext()
-        {
-            document.getElementById("desc").innerHTML="General mathematics is an introductory, basic, exploratory course in which the simple and significant principles of arithmetic, algebra, intuitive geometry, statistics, and numerical trigonometry are taught so as to emphasize their natural and numerous interrelations."
-        }
-
-    </script>
-    <script>
-
-        function changetext2()
-        {
-            document.getElementById("desc").innerHTML="In mathematics education, precalculus is a course, or a set of courses, that includes algebra and trigonometry at a level which is designed to prepare students for the study of calculus, thus the name precalculus."
-        }
-    
-    </script>
-
     <div class="rightcontainer">
         <div class="rightcontainersel">
         <p id="desc"> In mathematics education, precalculus is a course, or a set of courses, 
@@ -78,22 +63,6 @@
                                 <a href=2angleId.html><p>Module 1: Double Angle Identities</p></a>
                                 <p>Module 1.2: Half Angle Identities</p></div>
     </div>
-    <script>
-
-        function changecontent()
-        {
-            document.getElementById("learnmat").innerHTML="<div class=display;><div class=pcal;>2nd Quarter Pre-Calculus:</div><br><div class=precalsel><a href=2angleId.html><p>Module 1: Double Angle Identities</p></a><p>Module 1.2: Half Angle Identities</p></div>"
-        }
-    
-    </script>
-    <script>
-
-        function changecontent2()
-        {
-            document.getElementById("learnmat").innerHTML="<div class=display; id=learnmat>2nd Quarter General Mathematics:</div><br><div class=genmathsel>Module 1: One-to-one Function<p><a href=InvFunc.html>Module 1.2: Inverse Functions</p></a></div>"
-        }
-    
-    </script>
 </div>
 </main>
 <footer id="about">

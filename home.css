@@ -9,7 +9,7 @@ body{
     background-color: rgb(255, 196, 88);
 }
 *{
-    margin: 0px;
+    margin: 0px; font-family: arial, Calibri;
 }
 header{
     position: sticky;
@@ -128,10 +128,10 @@ button:hover{zoom: 105%; cursor: pointer;}
     background-color: #0c1821;
     flex-direction: column;
 }
-.divider .divtitle{margin: auto; padding-top: 30px; border-bottom: 3px solid; font-size: larger;}
+.divider .divtitle{margin: auto; padding-top: 30px; border-bottom: 3px solid; font-size: larger; border-bottom: solid;}
 .divider .divcontainer{
     display: flex;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .divider .vidtutorial{
     display: block;
@@ -166,3 +166,4 @@ button:hover{zoom: 105%; cursor: pointer;}
     text-align: center;
     font-size: 40px;
 }
+.display a:hover{text-decoration: underline;}
