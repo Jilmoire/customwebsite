@@ -50,7 +50,6 @@ footer{
 }
 .main1{
     z-index: 2;
-    border-style: solid;
     display: flex;
     margin-top: auto;
     justify-content: space-around;
