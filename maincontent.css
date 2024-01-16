@@ -45,22 +45,51 @@ main{
     border-style: solid;
     min-height: 70vh;
 }
-article{
+
+#double-angle {
     display: flex;
     border: 2px solid wheat;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 80vh;
+    width: 100%;
     align-items: flex-start;
     justify-content: space-around;
     padding: 30px;
+
+    height: 15vh;
 }
-article #sec1{
-    border-style: solid;
-    width: 40%;
-    height: 20%;
+
+#double-angle .description {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
-article #sec2{
-    border-style: solid;
-    width: 40%;
-    height: 20%;
+#double-angle .description section {
+    width: 100%;
+    height: 50%;
+    border: solid 2px;
+}
+
+#double-angle .video {
+    width: 50%;
+    height: 100%;
+    background-color: #0c1821;
+}
+
+@media screen and (max-width: 767px) {
+    #double-angle {
+        flex-direction: column;
+        height: 20vh;
+    }
+    #double-angle .description {
+        width: 100%;
+    }
+    #double-angle .description section {
+        width: 100%;
+    }
+    #double-angle .video {
+        width: 100%;
+    }
 }
