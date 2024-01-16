@@ -39,3 +39,28 @@ footer{
     margin-top: auto;
     color: white;
 }
+main{
+    display: flex;
+    align-content: center;
+    border-style: solid;
+    min-height: 70vh;
+}
+article{
+    display: flex;
+    border: 2px solid wheat;
+    flex-direction: column;
+    min-height: 80vh;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 30px;
+}
+article #sec1{
+    border-style: solid;
+    width: 40%;
+    height: 20%;
+}
+article #sec2{
+    border-style: solid;
+    width: 40%;
+    height: 20%;
+}
