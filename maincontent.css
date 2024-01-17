@@ -59,17 +59,32 @@ main{
     height: 15vh;
 }
 
-#double-angle .description {
+#double-angle .text {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
-#double-angle .description section {
+#double-angle .text section {
     width: 100%;
     height: 50%;
     border: solid 2px;
+}
+#double-angle .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+#double-angle .intro #title{
+    font-size: 45px;
+    border-bottom: 2px solid;
+}
+#double-angle .intro #description{
+    width: 80%;
 }
 
 #double-angle .video {
@@ -83,10 +98,10 @@ main{
         flex-direction: column;
         height: 20vh;
     }
-    #double-angle .description {
+    #double-angle .text {
         width: 100%;
     }
-    #double-angle .description section {
+    #double-angle .text section {
         width: 100%;
     }
     #double-angle .video {
