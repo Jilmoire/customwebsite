@@ -55,8 +55,6 @@ main{
     align-items: flex-start;
     justify-content: space-around;
     padding: 30px;
-
-    height: 15vh;
 }
 
 #double-angle .text {
@@ -91,6 +89,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: space-around;
     justify-content: center;
     gap: 8px;
     width: 50%;
